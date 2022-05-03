@@ -1,0 +1,253 @@
+* {
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Nunito';
+    font-style: normal;
+}
+
+.holder {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.left-part {
+    width: 45%;
+    height: 100%;
+    box-sizing: border-box;
+    padding-left: 165px;
+    position: relative;
+}
+
+.right-part{
+    width: 55%;
+    height: 100%;
+    background: #697BFF;
+}
+
+.left-part .branding {
+    font-family: "Nunito", sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.left-part .branding span:first-child {
+    color: #2B2B43;
+}
+
+.left-part .branding span:nth-child(2) {
+    color: #4E60FF;
+}
+
+.login-form {
+    margin-top: 56px;
+    font-family: 'Nunito';
+    font-style: normal;
+}
+
+.login-form .login-heading {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 82px;
+    letter-spacing: 0.1px;
+    color: #2B2B43;
+}
+
+.login-form .login-description {
+    margin-top: 27px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.1px;
+    color: #545563;
+}
+
+.login-form .login-inputs {
+    margin-top: 32px;
+}
+.login-form .login-inputs div {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form .login-inputs div:nth-child(2) {
+    margin-top: 20px;
+}
+
+.login-form .login-inputs div .eye-icon {
+     height: 20px;
+     width: 20px;
+     position: absolute;
+     right: 12px;
+     top: 50%;
+     cursor: pointer;
+}
+
+.login-form .login-inputs div input {
+    width: 100%;
+    height: 44px;
+    border: 1px solid #C7C8D2;
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding: 12px;
+    outline: none;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.1px;
+    color: #83859C;
+    margin-top: 4px;
+}
+
+.login-form .login-inputs div label {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    color: #545563;
+ }
+
+ .login-form .checkbox-input {
+     margin-top: 28px;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+ }
+
+ .login-form .checkbox-input input {
+     height: 20px;
+     width: 20px;
+     border: 2px solid #C7C8D2;
+     box-sizing: border-box;
+     border-radius: 4px;
+     margin-right: 12px;
+ }
+
+ .login-form .submit-button button{
+     width: 350px;
+     height: 44px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     padding: 12px 16px;
+     background: #4E60FF;
+     box-shadow: 0px 8px 20px rgba(78, 96, 255, 0.16);
+     border-radius: 8px;
+     outline: none;
+     border: none;
+     color: #fff;
+     font-weight: 700;
+     font-size: 14px;
+     margin-top: 40px;
+     cursor: pointer;
+ }
+
+ .login-form .forgot-password {
+     width: 350px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 0.3px;
+    color: #4E60FF;
+    margin-top: 28px;
+    cursor: pointer;
+ }
+
+ .sign-up {
+     position: absolute;
+     bottom: 40px;
+     width: 350px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 20px;
+     display: flex;
+     align-items: center;
+     letter-spacing: 0.1px;
+     color: #545563;
+ }
+
+.right-part .images-holder {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 48px;
+}   
+
+.right-part .images-holder .holder {
+    width: 618px;
+    height: 514px;
+    position: relative;
+}
+.right-part .images-holder .holder img:nth-child(1) {
+    position: absolute;
+    left: 0;
+    width: 313px;
+    height: 437px;
+}
+
+.right-part .images-holder .holder img:nth-child(2) {
+    width: 294px;
+    height: 279px;
+    position: absolute;
+    right: 50px;
+    top: 88px;
+}
+
+.right-part .images-holder .holder img:nth-child(3) {
+    width: 618px;
+    height: 132px;
+    position: absolute;
+    left: -30px;
+    bottom: 110px;
+}
+
+.text-holder {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+}
+
+.text-holder .heading {
+    font-weight: 700;
+    font-size: 25px;
+    text-align: center;
+    letter-spacing: 0.1px;
+}
+
+.text-holder .description {
+    margin-top: 16px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.1px;
+}
+
+.pagiantion {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
